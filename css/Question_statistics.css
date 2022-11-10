@@ -1,0 +1,14 @@
+.up-side {
+  border: solid;
+  text-align: center;
+  background-color: rgb(57, 94, 138);
+  color: whitesmoke;
+}
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+}
