@@ -1,0 +1,17 @@
+/* * {
+  border: 1px dotted gray;
+} */
+
+.ex-style {
+  width: 120px;
+}
+td {
+  text-align: center;
+}
+
+.text-style {
+  border: 1px solid white;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
