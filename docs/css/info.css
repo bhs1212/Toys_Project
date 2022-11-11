@@ -30,3 +30,7 @@ button {
 .start {
   text-align: center;
 }
+
+.div-margin {
+  margin: 10% auto;
+}
