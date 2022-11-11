@@ -4,45 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="../css/Question_statistics.css" />
     <title>Document</title>
   </head>
   <body>
-    <table border="1">
-      <div>
-        <thead class="up-side">
-          <tr>
-            <th class="up-side" rowspan="2">이름</th>
-            <th class="up-side" colspan="10">설문자별 통계</th>
-          </tr>
-          <tr>
-            <th class="up-side" colspan="2">문항1</th>
-            <th class="up-side" colspan="2">문항2</th>
-            <th class="up-side" colspan="2">문항3</th>
-            <th class="up-side" colspan="2">문항4</th>
-            <th class="up-side" colspan="2">문항5</th>
-          </tr>
-        </thead>
+    <div>
+      <ul class="menu">
+        <li><img src="../images/logo.jpg" alt="" class="image" /></li>
+        <li>
+          <a href="./menu.html" target="_self">Home</a>
+        </li>
+        <li><a href="./survey.html" target="_self">설문</a></li>
+        <li><a href="./Questions_statistics.html" target="_self">통계</a></li>
+      </ul>
+    </div>
+    <ul class="stat-ul">
+      <li>
+        <a href="./Questions_statistics.html" target="_self">질문별 통계</a>
+      </li>
+      <li>
+        <a href="./respondent_statistics.html" target="_self">설문자별 통계</a>
+      </li>
+    </ul>
+    <table border="1" class="table">
+      <tr>
+        <th class="up-side" rowspan="2">이름</th>
+        <th class="up-side" colspan="10">설문자별 통계</th>
+      </tr>
+      <tr>
+        <th class="up-side" colspan="2">문항1</th>
+        <th class="up-side" colspan="2">문항2</th>
+        <th class="up-side" colspan="2">문항3</th>
+        <th class="up-side" colspan="2">문항4</th>
+        <th class="up-side" colspan="2">문항5</th>
+      </tr>
 
-        <tr>
-          <th>배하선</th>
-          <th colspan="2">4</th>
-          <th colspan="2">3</th>
-          <th colspan="2">5</th>
-          <th colspan="2">4</th>
-          <th colspan="2">3</th>
-        </tr>
-        <tr>
-          <th>박찬희</th>
-          <th colspan="2">3</th>
-          <th colspan="2">3</th>
-          <th colspan="2">2</th>
-          <th colspan="2">4</th>
-          <th colspan="2">4</th>
-        </tr>
-      </div>
-
-      <tr></tr>
+      <tr>
+        <th>배하선</th>
+        <th colspan="2">4</th>
+        <th colspan="2">3</th>
+        <th colspan="2">5</th>
+        <th colspan="2">4</th>
+        <th colspan="2">3</th>
+      </tr>
+      <tr>
+        <th>박찬희</th>
+        <th colspan="2">3</th>
+        <th colspan="2">3</th>
+        <th colspan="2">2</th>
+        <th colspan="2">4</th>
+        <th colspan="2">4</th>
+      </tr>
     </table>
   </body>
 </html>

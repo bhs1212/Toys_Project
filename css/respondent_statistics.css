@@ -8,3 +8,25 @@ th {
   background-color: rgb(57, 94, 138);
   color: whitesmoke;
 }
+
+.table {
+  margin: auto;
+}
+
+.stat-ul {
+  list-style-type: none;
+}
+
+.stat-ul > li {
+  background-color: skyblue;
+  border-style: solid;
+  border-width: 0px 20px 0px 0px;
+  border-color: rgb(57, 94, 138);
+  margin: 10px;
+  padding: 5px;
+  width: 120px;
+}
+
+.stat-ul > li > a {
+  text-decoration: none;
+}
