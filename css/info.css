@@ -1,9 +1,8 @@
 table {
   border: 0.5px solid black;
   height: 50px;
-  margin-bottom: 30px;
-  margin-left: 21rem;
-  margin-top: 20px;
+
+  margin: auto;
 }
 
 .info {
@@ -24,12 +23,10 @@ button {
   text-align: center;
   background-color: midnightblue;
   color: whitesmoke;
-  margin-left: 10rem;
 }
 .yn {
   text-align: center;
 }
 .start {
-  margin-top: 2rem;
-  margin-left: 28rem;
+  text-align: center;
 }

@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="../css/info.css" />
     <title>Document</title>
   </head>
   <body>
+    <div>
+      <ul class="menu">
+        <li><img src="../images/logo.jpg" alt="" class="image" /></li>
+        <li>
+          <a href="./menu.html" target="_self">Home</a>
+        </li>
+        <li><a href="./info.html" target="_self">설문</a></li>
+        <li><a href="./Questions_statistics.html" target="_self">통계</a></li>
+      </ul>
+    </div>
     <table>
       <tr>
         <td class="info">카페 방문일</td>
@@ -34,8 +45,8 @@
       /></label>
     </div>
 
-    <div>
-      <button type="button" class="start" onclick="location.href='survey.html'">
+    <div class="start">
+      <button type="button" onclick="location.href='survey.html'">
         설문 시작하기
       </button>
     </div>
