@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/info.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="info">카페 방문일</td>
+        <td><input type="date" /></td>
+      </tr>
+      <tr>
+        <td class="info">이름</td>
+        <td><input type="name" placeholder="이름을 입력하세요." /></td>
+      </tr>
+      <tr>
+        <td class="info">전화번호</td>
+        <td><input type="number" placeholder="전화번호를 입력하세요." /></td>
+      </tr>
+    </table>
+
+    <div class="label yn">
+      개인 정보 수집 및 이용 목적에 동의 하십니까? &nbsp; &nbsp;
+    </div>
+    <div class="yn">
+      <label
+        >예<input type="radio" value="yes" /> 아니오<input
+          type="radio"
+          value="no"
+      /></label>
+    </div>
+
+    <div>
+      <button type="button" class="start" onclick="location.href='survey.html'">
+        설문 시작하기
+      </button>
+    </div>
+  </body>
+</html>

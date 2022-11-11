@@ -1,0 +1,35 @@
+table {
+  border: 0.5px solid black;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 21rem;
+  margin-top: 20px;
+}
+
+.info {
+  background-color: bisque;
+}
+input {
+  padding-left: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+button {
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  background-color: midnightblue;
+  color: whitesmoke;
+  margin-left: 10rem;
+}
+.yn {
+  text-align: center;
+}
+.start {
+  margin-top: 2rem;
+  margin-left: 28rem;
+}
