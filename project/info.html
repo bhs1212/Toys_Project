@@ -11,7 +11,11 @@
   <body>
     <div>
       <ul class="menu">
-        <li><img src="../images/logo.jpg" alt="" class="image" /></li>
+        <li>
+          <a href="./menu.html" target="_self"
+            ><img src="../images/logo.jpg" alt="" class="image"
+          /></a>
+        </li>
         <li>
           <a href="./menu.html" target="_self">Home</a>
         </li>
@@ -26,11 +30,13 @@
       </tr>
       <tr>
         <td class="info">이름</td>
-        <td><input type="name" placeholder="이름을 입력하세요." /></td>
+        <td><input type="text" name="name" id="" required /></td>
       </tr>
       <tr>
         <td class="info">전화번호</td>
-        <td><input type="number" placeholder="전화번호를 입력하세요." /></td>
+        <td>
+          <input type="text" name="" id="" required />
+        </td>
       </tr>
     </table>
 
@@ -38,11 +44,8 @@
       개인 정보 수집 및 이용 목적에 동의 하십니까? &nbsp; &nbsp;
     </div>
     <div class="yn">
-      <label
-        >예<input type="radio" value="yes" /> 아니오<input
-          type="radio"
-          value="no"
-      /></label>
+      <input type="radio" name="agree" id="" />예
+      <input type="radio" name="agree" id="" />아니오
     </div>
 
     <div class="start">
@@ -51,4 +54,10 @@
       </button>
     </div>
   </body>
+  <footer>
+    <div class="footer-div">
+      <div>주소 : 서울특별시 강남구 테헤란로10길 9</div>
+      <div>전화번호 : 02-1234-1234</div>
+    </div>
+  </footer>
 </html>

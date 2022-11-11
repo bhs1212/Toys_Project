@@ -11,7 +11,11 @@
   <body>
     <div>
       <ul class="menu">
-        <li><img src="../images/logo.jpg" alt="" class="image" /></li>
+        <li>
+          <a href="./menu.html" target="_self"
+            ><img src="../images/logo.jpg" alt="" class="image"
+          /></a>
+        </li>
         <li>
           <a href="./menu.html" target="_self">Home</a>
         </li>
@@ -27,37 +31,46 @@
         <a href="./respondent_statistics.html" target="_self">설문자별 통계</a>
       </li>
     </ul>
-    <div class="table">
-      <table border="1">
-        <tr>
-          <th class="up-side" rowspan="2">이름</th>
-          <th class="up-side" colspan="10">설문자별 통계</th>
-        </tr>
-        <tr>
-          <th class="up-side" colspan="2">문항1</th>
-          <th class="up-side" colspan="2">문항2</th>
-          <th class="up-side" colspan="2">문항3</th>
-          <th class="up-side" colspan="2">문항4</th>
-          <th class="up-side" colspan="2">문항5</th>
-        </tr>
-
-        <tr>
-          <th>배하선</th>
-          <th colspan="2">4</th>
-          <th colspan="2">3</th>
-          <th colspan="2">5</th>
-          <th colspan="2">4</th>
-          <th colspan="2">3</th>
-        </tr>
-        <tr>
-          <th>박찬희</th>
-          <th colspan="2">3</th>
-          <th colspan="2">3</th>
-          <th colspan="2">2</th>
-          <th colspan="2">4</th>
-          <th colspan="2">4</th>
-        </tr>
-      </table>
-    </div>
+    <table border="1" class="table-margin">
+      <div>
+        <thead>
+          <tr>
+            <th class="up-side" rowspan="2">이름</th>
+            <th class="up-side" colspan="10">설문자별 통계</th>
+          </tr>
+          <tr>
+            <th class="up-side" colspan="2">문항1</th>
+            <th class="up-side" colspan="2">문항2</th>
+            <th class="up-side" colspan="2">문항3</th>
+            <th class="up-side" colspan="2">문항4</th>
+            <th class="up-side" colspan="2">문항5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>배하선</th>
+            <th colspan="2">4</th>
+            <th colspan="2">3</th>
+            <th colspan="2">5</th>
+            <th colspan="2">4</th>
+            <th colspan="2">3</th>
+          </tr>
+          <tr>
+            <th>박찬희</th>
+            <th colspan="2">3</th>
+            <th colspan="2">3</th>
+            <th colspan="2">2</th>
+            <th colspan="2">4</th>
+            <th colspan="2">4</th>
+          </tr>
+        </tbody>
+      </div>
+    </table>
   </body>
+  <footer>
+    <div class="footer-div">
+      <div>주소 : 서울특별시 강남구 테헤란로10길 9</div>
+      <div>전화번호 : 02-1234-1234</div>
+    </div>
+  </footer>
 </html>

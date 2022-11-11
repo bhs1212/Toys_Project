@@ -9,8 +9,8 @@ th {
   color: whitesmoke;
 }
 
-.table {
-  text-align: center;
+.table-margin {
+  margin: auto;
 }
 
 .stat-ul {
