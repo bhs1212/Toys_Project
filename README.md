@@ -1,4 +1,4 @@
-# Toys_Project( ☕
+# Toys_Project(Cafe_Survey) ☕
 ## Title
 ### 🍪 KH CAFE 서비스 개선을 위한 이용 고객의 만족도 조사
 ### 📅 프로젝트 진행 기간 : 2022.11.10 ~ 2022.11.11
