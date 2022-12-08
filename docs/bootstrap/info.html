@@ -23,7 +23,7 @@
             width="40"
         /></a>
         <a href="../index.html" class="nav-link">Home</a>
-        <a href="./survey.html" class="nav-link">설문</a>
+        <a href="./info.html" class="nav-link">설문</a>
         <div class="dropdown nav-item">
           <a
             href="#dropdownId"
@@ -42,45 +42,47 @@
         </div>
       </div>
     </nav>
-    <div class="container" style="margin-top: 100px">
-      <div class="input-group d-flex justify-content-center">
-        <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
-          >카페 방문일</label
-        >
-        <input type="date" class="col-3 rounded" />
+    <form action="./survey.html">
+      <div class="container" style="margin-top: 100px">
+        <div class="input-group d-flex justify-content-center">
+          <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
+            >카페 방문일</label
+          >
+          <input type="date" class="col-3 rounded" name="date" />
+        </div>
+        <div class="input-group d-flex justify-content-center">
+          <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
+            >이름</label
+          >
+          <input type="text" class="col-3 rounded" name="name" />
+        </div>
+        <div class="input-group d-flex justify-content-center">
+          <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
+            >전화번호</label
+          >
+          <input type="text" class="col-3 rounded" name="phone" />
+        </div>
       </div>
-      <div class="input-group d-flex justify-content-center">
-        <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
-          >이름</label
-        >
-        <input type="text" class="col-3 rounded" />
-      </div>
-      <div class="input-group d-flex justify-content-center">
-        <label for="" class="input-group-text col-2 bg-info bg-opacity-25"
-          >전화번호</label
-        >
-        <input type="text" class="col-3 rounded" />
-      </div>
-    </div>
 
-    <div class="mt-3 text-center">
-      개인 정보 수집 및 이용 목적에 동의 하십니까? &nbsp; &nbsp;
-    </div>
-    <div>
-      <div class="text-center">
-        <input type="radio" name="agree" id="" class="me-2" />예
-        <input type="radio" name="agree" id="" class="ms-5 me-2" />아니오
+      <div class="mt-3 text-center">
+        개인 정보 수집 및 이용 목적에 동의 하십니까? &nbsp; &nbsp;
       </div>
-    </div>
+      <div>
+        <div class="text-center">
+          <input type="radio" name="agree" id="" class="me-2" />예
+          <input type="radio" name="agree" id="" class="ms-5 me-2" />아니오
+        </div>
+      </div>
 
-    <div class="start text-center">
-      <button
-        class="btn btn-primary mt-3"
-        onclick="location.href='survey.html'"
-      >
-        설문 시작하기
-      </button>
-    </div>
+      <div class="start text-center">
+        <button
+          class="btn btn-primary mt-3"
+          onclick="location.href='survey.html'"
+        >
+          설문 시작하기
+        </button>
+      </div>
+    </form>
 
     <nav class="navbar bg-primary bg-opacity-25 fixed-bottom">
       <div class="container justify-content-center">

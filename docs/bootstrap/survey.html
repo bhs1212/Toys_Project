@@ -11,10 +11,9 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/survey.css" />
+    <!-- <link rel="stylesheet" href="../css/survey.css" /> -->
   </head>
   <body>
-
     <nav class="navbar navbar-expand bg-primary bg-opacity-25 fixed-top">
       <div class="container">
         <a href="./index.html" class="nav-link"
@@ -25,7 +24,7 @@
             width="40"
         /></a>
         <a href="../index.html" class="nav-link">Home</a>
-        <a href="./survey.html" class="nav-link">설문</a>
+        <a href="./info.html" class="nav-link">설문</a>
         <div class="dropdown nav-item">
           <a
             href="#dropdownId"
@@ -44,22 +43,25 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="text-style mb-3" style="margin-top: 100px">
+
+    <div class="container text-center" style="margin-top: 200px">
+      <div class="mb-3">
         고객님께서 방문하신 KHCAFE 강남점에 관련한 설문 조사입니다. 1번에서부터
         5번까지 고객님께서 매장에 대해 경험하신 내용을 바탕으로 설문에
         임해주시기 바랍니다.
       </div>
+      <div>
+        <table
+          class="table table-bordered border-warning table-sm caption-top table-layout:fixed"
+        >
+          <thead>
+            <tr>
+              <th rowspan="4" class="align-middle text-center col-5">
+                설문 문항
+              </th>
+              <th colspan="5" class="align-middle text-center">보기</th>
+            </tr>
 
-   
-      <table class="table table-bordered  border-warning table-sm caption-top  table-layout:fixed">
-      
-        <thead>
-          <tr>
-            <th rowspan="4" class="align-middle text-center col-5">설문 문항</th>
-            <th colspan="5" class="align-middle text-center">보기</th>
-          </tr>
-          <tr>
             <tr class="align-middle text-center col-5">
               <td>전혀 아니다</td>
               <td>아니다</td>
@@ -67,63 +69,66 @@
               <td>그렇다</td>
               <td>매우 그렇다</td>
             </tr>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1. 해당 매장을 방문시 매장은 청결 하였습니까?</td>
-            <td class="ex-style"><input type="radio" name="q1" id="" /></td>
-            <td class="ex-style"><input type="radio" name="q1" id="" /></td>
-            <td class="ex-style"><input type="radio" name="q1" id="" /></td>
-            <td class="ex-style"><input type="radio" name="q1" id="" /></td>
-            <td class="ex-style"><input type="radio" name="q1" id="" /></td>
-          </tr>
-          <tr>
-            <td>2. 주문시 직원은 고객님께 친절 하였습니까?</td>
-            <td><input type="radio" name="q2" id="" /></td>
-            <td><input type="radio" name="q2" id="" /></td>
-            <td><input type="radio" name="q2" id="" /></td>
-            <td><input type="radio" name="q2" id="" /></td>
-            <td><input type="radio" name="q2" id="" /></td>
-          </tr>
-          <tr>
-            <td>3. 주문하신 음료가 나오기까지 시간이 적당하였습니까?</td>
-            <td><input type="radio" name="q3" id="" /></td>
-            <td><input type="radio" name="q3" id="" /></td>
-            <td><input type="radio" name="q3" id="" /></td>
-            <td><input type="radio" name="q3" id="" /></td>
-            <td><input type="radio" name="q3" id="" /></td>
-          </tr>
-          <tr>
-            <td>4. 직원이 제조한 음료에 대해 맛은 좋았습니까?</td>
-            <td><input type="radio" name="q4" id="" /></td>
-            <td><input type="radio" name="q4" id="" /></td>
-            <td><input type="radio" name="q4" id="" /></td>
-            <td><input type="radio" name="q4" id="" /></td>
-            <td><input type="radio" name="q4" id="" /></td>
-          </tr>
-          <tr>
-            <td>5. 해당 매장을 다음에도 재방문 하실 의향이 있으십니까?</td>
-            <td><input type="radio" name="q5" id="" /></td>
-            <td><input type="radio" name="q5" id="" /></td>
-            <td><input type="radio" name="q5" id="" /></td>
-            <td><input type="radio" name="q5" id="" /></td>
-            <td><input type="radio" name="q5" id="" /></td>
-          </tr>
-        </tbody>
-    </table>
-    </div>
-
-    <div class="button-div">
-      <button type="submit" onclick="location.href='fin.html'" class="mt-3 btn btn-primary">
-        설문 완료
-      </button>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. 해당 매장을 방문시 매장은 청결 하였습니까?</td>
+              <td><input type="radio" name="q1" id="" /></td>
+              <td><input type="radio" name="q1" id="" /></td>
+              <td><input type="radio" name="q1" id="" /></td>
+              <td><input type="radio" name="q1" id="" /></td>
+              <td><input type="radio" name="q1" id="" /></td>
+            </tr>
+            <tr>
+              <td>2. 주문시 직원은 고객님께 친절 하였습니까?</td>
+              <td><input type="radio" name="q2" id="" /></td>
+              <td><input type="radio" name="q2" id="" /></td>
+              <td><input type="radio" name="q2" id="" /></td>
+              <td><input type="radio" name="q2" id="" /></td>
+              <td><input type="radio" name="q2" id="" /></td>
+            </tr>
+            <tr>
+              <td>3. 주문하신 음료가 나오기까지 시간이 적당하였습니까?</td>
+              <td><input type="radio" name="q3" id="" /></td>
+              <td><input type="radio" name="q3" id="" /></td>
+              <td><input type="radio" name="q3" id="" /></td>
+              <td><input type="radio" name="q3" id="" /></td>
+              <td><input type="radio" name="q3" id="" /></td>
+            </tr>
+            <tr>
+              <td>4. 직원이 제조한 음료에 대해 맛은 좋았습니까?</td>
+              <td><input type="radio" name="q4" id="" /></td>
+              <td><input type="radio" name="q4" id="" /></td>
+              <td><input type="radio" name="q4" id="" /></td>
+              <td><input type="radio" name="q4" id="" /></td>
+              <td><input type="radio" name="q4" id="" /></td>
+            </tr>
+            <tr>
+              <td>5. 해당 매장을 다음에도 재방문 하실 의향이 있으십니까?</td>
+              <td><input type="radio" name="q5" id="" /></td>
+              <td><input type="radio" name="q5" id="" /></td>
+              <td><input type="radio" name="q5" id="" /></td>
+              <td><input type="radio" name="q5" id="" /></td>
+              <td><input type="radio" name="q5" id="" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <button
+          type="submit"
+          onclick="location.href='fin.html'"
+          class="mt-3 btn btn-primary"
+        >
+          설문 완료
+        </button>
+      </div>
     </div>
     <nav class="navbar bg-primary bg-opacity-25 fixed-bottom">
       <div class="container justify-content-center">
         <a href="" class="navbar-brand">
           <div class="nav-link">주소 : 서울특별시 강남구 테헤란로10길 9</div>
-          <div class="nav-link">전화번호 : 02-1234-1234</div>
+          <div class="nav-link text-center">전화번호 : 02-1234-1234</div>
         </a>
       </div>
     </nav>
