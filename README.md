@@ -10,7 +10,24 @@
 
 ### 👦 배하선
 
+- [survey](./docs/project/survey.html)
+- [menu](./docs/project/menu.html)
+- [index](./docs/project/index.html)
+
+- [bootstrap : Questions_statistics](./docs/bootstrap/Questions_statistics.html)
+- [bootstrap : respondent_statistics](./docs/bootstrap/respondent_statistics.html)
+- [bootstrap : index](./docs/index.html)
+
 ### 👩 박찬희
+
+- [Questions_statistics](./docs/project/Questions_statistics.html)
+- [respondent_statistics](./docs/project/respondent_statistics.html)
+- [info](./docs/project/info.html)
+- [fin](./docs/project/fin.html)
+
+- [bootstrap : survey](./docs/bootstrap/survey.html)
+- [bootstrap : info](./docs/bootstrap/info.html)
+- [bootstrap : fin](./docs/bootstrap/fin.html)
 
 ## Project 📝
 
